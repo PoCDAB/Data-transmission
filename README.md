@@ -20,8 +20,8 @@ pkg-config
 
 ## Building
 ```
-$ git clone https://github.com/chissie13/POCDAB.git
-$ cd POCDAB
+$ git clone https://github.com/PoCDAB/Data-transmission.git
+$ cd Data-transmission
 $ ./build.sh
 ```
 The resulting binaries can be found in `<build-directory>/products/Release/bin`
@@ -46,4 +46,9 @@ interface for UDP datagrams on the port specified in the packager
 (default 4242):
 ```
 $ python receive.py
+
 ```
+
+# Credit
+Forked from [data-over-dab-example](https://github.com/Opendigitalradio/data-over-dab-example)
+by Opendigitalradio. See LICENSE for more information.
